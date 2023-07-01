@@ -1,0 +1,19 @@
+import java.util.Arrays;
+
+public class SortowanieMarekNapojow {
+    public static void main(String[] args) {
+        String[] markiNapojow = {"Coca-Cola", "Pepsi", "Sprite", "Fanta", "Mountain Dew"};
+
+        System.out.println("Przed sortowaniem:");
+        for (String marka : markiNapojow) {
+            System.out.println(marka);
+        }
+
+        Arrays.sort(markiNapojow);
+
+        System.out.println("\nPo sortowaniu:");
+        for (String marka : markiNapojow) {
+            System.out.println(marka);
+        }
+    }
+}
